@@ -20,6 +20,17 @@ h2 {
     color: #184f63; /* dark-blue */
 }
 
+/* header section */
+
+#hero {
+    background-image: url(../images/background.webp);
+    background-color: #dbdcde;
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 500px;
+    padding: 5% 7%;
+}
+
 /* About section */
 
 #about {
