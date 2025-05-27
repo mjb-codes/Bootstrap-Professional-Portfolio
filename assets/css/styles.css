@@ -43,8 +43,30 @@ h2 {
     background-color: #dbdcde; /* Light grey */
 }
 
+#portfolio .card-title {
+    color: #1f7798; /* mid blue */
+    font-size: 1.2rem;
+}
+
+#portfolio .btn-outline-secondary:hover {
+    background-color: #1f7798; /* mid blue */
+}
+
+#portfolio .card-text {
+    min-height: 120px;
+}
+
 /* Footer */
 
 #contact {
     background-color: #fff;
+}
+
+/* Media query for XL screens */
+
+@media screen and (min-width: 1200px) {
+    /* Fixes portfolio cards appearing too tall on XL screens */
+    #portfolio .card-text {
+        min-height: auto;
+    }
 }
